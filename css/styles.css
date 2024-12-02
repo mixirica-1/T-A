@@ -1,3 +1,4 @@
+
 h1#turma {
     position: absolute;
     left: 55px;
@@ -25,6 +26,7 @@ img#imagem1 {
     float: right;
     margin-left: 15px;
 }
+
 .flutuarEsquerda {
     float: left;
     margin-right: 15px;
@@ -63,7 +65,7 @@ footer {
     left: 0;
 }
 
-nav ul{
+nav ul {
     position: absolute;
     list-style: none;
     padding: 0;
@@ -74,69 +76,29 @@ nav ul{
     font-weight: 700;
 }
 
-li#nav1{
+li#nav1,
+li#nav2,
+li#nav3,
+li#nav4 {
     text-align: center;
     display: inline-block;
     margin: 0 10px;
-    width: 70px;
-    border-right-color: rgb(255, 255, 255);
-    border-right-width: 1px;
-    border-right-style: ridge;
-    border-left-color: rgb(255, 255, 255);
-    border-left-width: 1px;
-    border-left-style: ridge;
-}
-
-li#nav2{
-    text-align: center;
-    display: inline-block;
-    margin: 0 10px;
-    width: 130px;
-    border-right-color: rgb(255, 255, 255);
-    border-right-width: 1px;
-    border-right-style: ridge;
-    border-left-color: rgb(255, 255, 255);
-    border-left-width: 1px;
-    border-left-style: ridge;
-}
-
-li#nav3{
-    text-align: center;
-    display: inline-block;
-    margin: 0 10px;
-    width: 130px;
-    border-right-color: rgb(255, 255, 255);
-    border-right-width: 1px;
-    border-right-style: ridge;
-    border-left-color: rgb(255, 255, 255);
-    border-left-width: 1px;
-    border-left-style: ridge;
-}
-
-li#nav4{
-    text-align: center;
-    display: inline-block;
-    margin: 0 10px;
-    width: 130px;
-    border-right-color: rgb(255, 255, 255);
-    border-right-width: 1px;
-    border-right-style: ridge;
-    border-left-color: rgb(255, 255, 255);
-    border-left-width: 1px;
-    border-left-style: ridge;
+    border-right: 1px ridge rgb(255, 255, 255);
+    border-left: 1px ridge rgb(255, 255, 255);
 }
 
 nav a {
     color: #ffffff;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px; 
-
+    padding: 20px;
 }
+
+
 @media (max-width: 768px) {
     h1#turma {
         position: relative;
@@ -147,19 +109,25 @@ main {
 
     div#p {
         position: relative;
-        left: 10px;
-        top: 20px;
+        left: 5px;
+        top: 10px;
         width: 90%;
         height: auto;
     }
 
     img#imagem1 {
         position: relative;
-        right: 10px;
-        top: 20px;
+        right: 5px;
+        top: 10px;
         width: 90%;
         height: auto;
         margin: 20px auto;
+    }
+
+    .flutuarDireita,
+    .flutuarEsquerda {
+        float: none;
+        margin: 10px 0;
     }
 
     .titulo {
@@ -173,15 +141,12 @@ main {
         font-size: 18px;
     }
 
-    li#nav1, li#nav2, li#nav3, li#nav4 {
+    li#nav1,
+    li#nav2,
+    li#nav3,
+    li#nav4 {
         width: auto;
         margin: 5px;
-    }
-
-    .flutuarDireita,
-    .flutuarEsquerda {
-        float: none;
-        margin: 10px 0;
     }
 }
 
@@ -196,7 +161,7 @@ main {
     div#p {
         position: relative;
         left: 5px;
-        top: 10px;
+        top: 5px;
         width: 100%;
         height: auto;
     }
@@ -204,10 +169,16 @@ main {
     img#imagem1 {
         position: relative;
         right: 5px;
-        top: 10px;
+        top: 5px;
         width: 100%;
         height: auto;
         margin: 10px auto;
+    }
+
+    .flutuarDireita,
+    .flutuarEsquerda {
+        float: none;
+        margin: 5px 0;
     }
 
     .titulo {
@@ -221,14 +192,11 @@ main {
         font-size: 16px;
     }
 
-    li#nav1, li#nav2, li#nav3, li#nav4 {
+    li#nav1,
+    li#nav2,
+    li#nav3,
+    li#nav4 {
         width: auto;
         margin: 2px;
-    }
-
-    .flutuarDireita,
-    .flutuarEsquerda {
-        float: none;
-        margin: 5px 0;
     }
 }

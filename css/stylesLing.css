@@ -232,18 +232,17 @@ main {
     transform: rotate(180deg);
 }
 
-
 @media (max-width: 768px) {
     h1#turma {
         position: relative;
         left: 10px;
-        top: 5px;
-        font-size: 24px;
+        top: 10px;
+        font-size: 28px;
     }
 
     section#p {
         position: relative;
-        left: 5px;
+        left: 10px;
         top: 20px;
         width: 90%;
         height: auto;
