@@ -139,22 +139,27 @@ main {
 }
 @media (max-width: 768px) {
     h1#turma {
-        left: 20px;
+        position: relative;
+        left: 10px;
         top: 10px;
+        font-size: 24px;
     }
 
     div#p {
+        position: relative;
         left: 10px;
-        top: 100px;
+        top: 20px;
         width: 90%;
         height: auto;
     }
 
     img#imagem1 {
+        position: relative;
         right: 10px;
-        top: 150px;
+        top: 20px;
         width: 90%;
         height: auto;
+        margin: 20px auto;
     }
 
     .titulo {
@@ -162,45 +167,47 @@ main {
     }
 
     nav ul {
+        position: relative;
         right: 10px;
-        top: 20px;
+        top: 10px;
         font-size: 18px;
     }
 
-    li#nav1,
-    li#nav2,
-    li#nav3,
-    li#nav4 {
+    li#nav1, li#nav2, li#nav3, li#nav4 {
         width: auto;
-        margin: 0 5px;
+        margin: 5px;
     }
 
     .flutuarDireita,
     .flutuarEsquerda {
         float: none;
-        margin: 0;
+        margin: 10px 0;
     }
 }
 
 @media (max-width: 480px) {
     h1#turma {
-        left: 10px;
-        top: 10px;
-        font-size: 24px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        font-size: 20px;
     }
 
     div#p {
+        position: relative;
         left: 5px;
-        top: 80px;
+        top: 10px;
         width: 100%;
         height: auto;
     }
 
     img#imagem1 {
+        position: relative;
         right: 5px;
-        top: 120px;
+        top: 10px;
         width: 100%;
         height: auto;
+        margin: 10px auto;
     }
 
     .titulo {
@@ -208,23 +215,20 @@ main {
     }
 
     nav ul {
+        position: relative;
         right: 5px;
-        top: 10px;
+        top: 5px;
         font-size: 16px;
     }
 
-    li#nav1,
-    li#nav2,
-    li#nav3,
-    li#nav4 {
+    li#nav1, li#nav2, li#nav3, li#nav4 {
         width: auto;
-        margin: 0 2px;
+        margin: 2px;
     }
 
     .flutuarDireita,
     .flutuarEsquerda {
         float: none;
-        margin: 0;
+        margin: 5px 0;
     }
 }
-
