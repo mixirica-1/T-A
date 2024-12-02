@@ -158,20 +158,22 @@ main {
         font-size: 20px;
     }
 
-    div#p {
+   div#p {
         position: relative;
         left: 5px;
-        top: 5px;
-        width: 470px;
-        height: 100px;
+        top: 200px;
+        width: 430px;
+        height: 200px;
     }
+
 
     img#imagem1 {
         position: absolute;
         width: 200px;
-        height: 100px;
+        height: 150px;
         margin: 10px ;
     }
+
 
     .flutuarDireita,
     .flutuarEsquerda {
@@ -180,12 +182,13 @@ main {
     }
 
     footer {
-    position: relative;
+    position: absolute;
     text-align: center;
     background-color: #080547;
-    width: 480px;
+    width: 470px;
     padding: 10px 0;
 }
+
 
     .titulo {
         font-size: 20px;
@@ -203,7 +206,7 @@ main {
     li#nav3,
     li#nav4 {
         position: relative;
-        width: auto;
+        width: 70px;
         margin: 2px;
     }
 }
