@@ -151,21 +151,19 @@ main {
 }
 
 @media (max-width: 480px) {
-    display:
     h1#turma {
         position: relative;
         left: 5px;
         top: 5px;
-        font-size: 10px;
+        font-size: 20px;
     }
 
     div#p {
-        display: flex;
         position: relative;
         left: 5px;
         top: 5px;
-        width: 50%;
-        height: auto;
+        width: 300px;
+        height: 100px;
     }
 
     img#imagem1 {
@@ -173,14 +171,14 @@ main {
         right: 5px;
         top: 5px;
         width: 250px;
-        height: 200px;
-        margin: 10px auto;
+        height: 100px;
+        margin: 10px ;
     }
 
     .flutuarDireita,
     .flutuarEsquerda {
         float: none;
-        margin: 5px 0;
+        margin: 5px;
     }
 
     .titulo {
@@ -189,7 +187,6 @@ main {
     }
 
     nav ul {
-        display: flex;
         position: relative;
         right: 5px;
         top: 5px;
@@ -200,7 +197,6 @@ main {
     li#nav2,
     li#nav3,
     li#nav4 {
-        display: flex;
         width: auto;
         margin: 2px;
     }
