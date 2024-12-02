@@ -306,6 +306,7 @@ main {
 
 @media (max-width: 480px) {
     h1#turma {
+        display: flex;
         position: relative;
         left: 5px;
         top: 5px;
@@ -313,6 +314,7 @@ main {
     }
 
     section#p {
+        display: flex;
         position: relative;
         left: 5px;
         top: 10px;
@@ -321,6 +323,7 @@ main {
     }
 
     section#p2 {
+        display: flex;
         position: relative;
         margin-left: 2%;
         margin-right: 2%;
@@ -329,11 +332,13 @@ main {
     }
 
     img#imagem1, img#imagem2, img#imagem3 {
+        display: flex;
         width: 50%;
         height: auto;
     }
 
     .titulo, .titulo2, .titulo3 {
+        display: flex;
         position: relative;
         font-size: 12px;
         padding: 5px;
@@ -346,6 +351,7 @@ main {
     }
 
     nav ul {
+        display: flex;
         position: relative;
         right: 5px;
         top: 5px;
@@ -358,17 +364,20 @@ main {
     }
 
     .container {
+        display: flex;
         grid-template-columns: 1fr;
         gap: 5px;
     }
 
     .container-slider {
+        display: flex;
         flex-direction: column;
         width: 50%;
         margin-left: 0;
     }
 
     .container-images {
+        display: flex;
         width: 50%;
     }
 }
