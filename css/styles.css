@@ -151,7 +151,9 @@ main {
 }
 
 @media (max-width: 480px) {
+    display:
     h1#turma {
+        display: flex;
         position: relative;
         left: 5px;
         top: 5px;
@@ -159,6 +161,7 @@ main {
     }
 
     div#p {
+        display: flex;
         position: relative;
         left: 5px;
         top: 5px;
@@ -167,10 +170,11 @@ main {
     }
 
     img#imagem1 {
+        display: flex;
         position: relative;
         right: 5px;
         top: 5px;
-        width: 50%;
+        width: 100%;
         height: auto;
         margin: 10px auto;
     }
@@ -182,10 +186,12 @@ main {
     }
 
     .titulo {
+        display: flex;
         font-size: 20px;
     }
 
     nav ul {
+        display: flex;
         position: relative;
         right: 5px;
         top: 5px;
@@ -196,6 +202,7 @@ main {
     li#nav2,
     li#nav3,
     li#nav4 {
+        display: flex;
         width: auto;
         margin: 2px;
     }
