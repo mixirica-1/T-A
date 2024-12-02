@@ -309,14 +309,14 @@ main {
         position: relative;
         left: 5px;
         top: 5px;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     section#p {
         position: relative;
         left: 5px;
         top: 10px;
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 
@@ -324,32 +324,32 @@ main {
         position: relative;
         margin-left: 2%;
         margin-right: 2%;
-        width: 96%;
+        width: 48%;
         height: auto;
     }
 
     img#imagem1, img#imagem2, img#imagem3 {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 
     .titulo, .titulo2, .titulo3 {
         position: relative;
-        font-size: 24px;
+        font-size: 12px;
         padding: 5px;
     }
 
     footer {
         position: relative;
         text-align: center;
-        width: 100%;
+        width: 50%;
     }
 
     nav ul {
         position: relative;
         right: 5px;
         top: 5px;
-        font-size: 16px;
+        font-size: 8px;
     }
 
     li#nav1, li#nav2, li#nav3, li#nav4 {
@@ -364,11 +364,11 @@ main {
 
     .container-slider {
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         margin-left: 0;
     }
 
     .container-images {
-        width: 100%;
+        width: 50%;
     }
 }
