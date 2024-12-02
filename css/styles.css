@@ -98,6 +98,66 @@ main {
     padding: 20px;
 }
 
+@media (max-width: 1650px) {
+    h1#turma {
+        position: relative;
+        left: 5px;
+        top: 5px;
+        font-size: 20px;
+    }
+
+   div#p {
+        position: absolute;
+        left: 5px;
+        top: 200px;
+        width: 1200px;
+        height: 700px;
+    }
+
+
+    img#imagem1 {
+        position: absolute;
+        width: 350px;
+        height: 200px;
+        margin: 10px ;
+    }
+
+
+    .flutuarDireita,
+    .flutuarEsquerda {
+        float: none;
+        margin: 5px;
+    }
+
+    footer {
+    position: absolute;
+    text-align: center;
+    background-color: #080547;
+    width: 1650px;
+    padding: 10px 0;
+}
+
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        position: relative;
+        right: 5px;
+        top: 5px;
+        font-size: 8px;
+    }
+
+    li#nav1,
+    li#nav2,
+    li#nav3,
+    li#nav4 {
+        position: relative;
+        width: 70%;
+        margin: 2px;
+    }
+}
 
 @media (max-width: 768px) {
     h1#turma {
