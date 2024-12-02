@@ -1,45 +1,61 @@
+
 h1#turma {
-    position: relative;
-    left: 5%;
-    top: 1%;
-    font-size: 3vw;
+    position: absolute;
+    left: 55px;
+    top: 5px;
 }
 
 section#p {
-    position: relative;
-    left: 5%;
-    top: 10%;
-    width: 90%;
-    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    width: 750px;
+    height: 600px;
 }
 
 footer {
-    position: relative;
+    position: absolute;
     text-align: center;
     background-color: #080547;
     width: 100%;
     bottom: 0;
     left: 0;
-    padding: 10px 0;
 }
 
 section#p2 {
-    position: relative;
-    margin-top: 10%;
-    margin-left: 5%;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 8%;
     top: 100px;
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
-img#imagem1, img#imagem2, img#imagem3 {
-    position: relative;
-    width: 100%;
-    height: auto;
+img#imagem1 {
+    position: absolute;
+    right: 30px;
+    top: 145px;
     border-style: solid;
     border-width: 2px;
     border-radius: 20px;
-    margin: 20px 0;
+}
+
+img#imagem2 {
+    position: absolute;
+    left: 20px;
+    bottom: 165px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+img#imagem3 {
+    position: absolute;
+    left: 20px;
+    bottom: 140px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
 }
 
 .flutuarDireita {
@@ -53,15 +69,25 @@ img#imagem1, img#imagem2, img#imagem3 {
 }
 
 .titulo {
-    font-size: 5vw;
+    font-size: 38px;
 }
 
-.titulo2, .titulo3 {
-    position: relative;
+.titulo2 {
+    position: absolute;
     top: 60%;
     right: 40%;
     transform: translate(75%, -490%);
-    font-size: 3vw;
+    font-size: 38px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.titulo3 {
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    transform: translate(85%, -490%);
+    font-size: 38px;
     margin-left: 15px;
     padding: 10px;
 }
@@ -78,7 +104,7 @@ body {
 }
 
 header {
-    position: relative;
+    position: absolute;
     background-color: #080547;
     left: 0;
     top: 0;
@@ -87,16 +113,14 @@ header {
 }
 
 nav ul {
-    position: relative;
+    position: absolute;
     list-style: none;
     padding: 0;
     margin: 0;
-    right: 10%;
+    right: 250px;
     top: 35px;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: 700;
-    display: flex;
-    justify-content: flex-end;
 }
 
 li#nav1, li#nav2, li#nav3, li#nav4 {
@@ -120,16 +144,16 @@ main {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
 }
 
 .image {
-    text-align: center;
+    text-align: center; 
 }
 
 .container-slider {
-    position: relative;
+    position: absolute;
     margin-left: 16%;
     width: 68%;
     height: 80%;
@@ -148,7 +172,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     top: 100px;
 }
 
@@ -165,16 +189,30 @@ main {
 
 .img-slider {
     border-color: #2c2a56;
-    width: 100%;
-    max-width: 166px;
-    height: auto;
+    float: left;
+    width: 166px;
+    height: 239px;
 }
 
-.img-slider2, .img-slider3, .img-slider4 {
+.img-slider2 {
     border-color: #2c2a56;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    float: center;
+    width: 500px;
+    height: 239px;
+}
+
+.img-slider3 {
+    border-color: #2c2a56;
+    float: center;
+    width: 300px;
+    height: 300px;
+}
+
+.img-slider4 {
+    border-color: #2c2a56;
+    float: center;
+    width: 350px;
+    height: 350px;
 }
 
 #prev-button, #next-button {
@@ -196,34 +234,63 @@ main {
 
 @media (max-width: 768px) {
     h1#turma {
-        font-size: 6vw;
+        position: relative;
+        left: 10px;
+        top: 10px;
+        font-size: 28px;
     }
 
     section#p {
+        position: relative;
+        left: 10px;
+        top: 20px;
         width: 90%;
         height: auto;
     }
 
     section#p2 {
+        position: relative;
         margin-top: 5%;
+        margin-left: 5%;
         width: 90%;
         height: auto;
     }
 
+    img#imagem1, img#imagem2, img#imagem3 {
+        position: relative;
+        width: 90%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px auto;
+    }
+
     .titulo, .titulo2, .titulo3 {
-        font-size: 5vw;
+        position: relative;
+        font-size: 28px;
+        padding: 5px;
     }
 
     footer {
-        padding: 10px 0;
+        position: relative;
+        text-align: center;
+        width: 100%;
     }
 
     nav ul {
-        font-size: 1.2rem;
+        position: relative;
+        right: 10px;
+        top: 10px;
+        font-size: 18px;
+    }
+
+    li#nav1, li#nav2, li#nav3, li#nav4 {
+        width: auto;
+        margin: 5px;
     }
 
     .container {
         grid-template-columns: 1fr;
+        gap: 10px;
     }
 
     .container-slider {
@@ -239,18 +306,26 @@ main {
 
 @media (max-width: 480px) {
     h1#turma {
-        font-size: 7vw;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        font-size: 20px;
     }
 
     section#p {
+        position: relative;
+        left: 5px;
+        top: 10px;
         width: 100%;
         height: auto;
     }
 
     section#p2 {
+        position: relative;
         margin-left: 2%;
         margin-right: 2%;
         width: 96%;
+        height: auto;
     }
 
     img#imagem1, img#imagem2, img#imagem3 {
@@ -259,16 +334,27 @@ main {
     }
 
     .titulo, .titulo2, .titulo3 {
-        font-size: 6vw;
+        position: relative;
+        font-size: 24px;
         padding: 5px;
     }
 
     footer {
-        padding: 10px 0;
+        position: relative;
+        text-align: center;
+        width: 100%;
     }
 
     nav ul {
-        font-size: 1rem;
+        position: relative;
+        right: 5px;
+        top: 5px;
+        font-size: 16px;
+    }
+
+    li#nav1, li#nav2, li#nav3, li#nav4 {
+        width: auto;
+        margin: 2px;
     }
 
     .container {
